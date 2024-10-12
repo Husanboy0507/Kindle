@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+  .header .navbarnav a {
+    display: none;
+  }
+  .header .navlogo {
+    width: 30%;
+  }
+  .header .banner .banner__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header .banner .banner__content .item h1 {
+    font-size: 1.9rem;
+  }
+  .header .banner .banner p {
+    width: 40%;
+  }
+  .number .number__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .book .book__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .about .about__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .our .our__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .check iframe {
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
